@@ -248,17 +248,30 @@ a:focus {
     }
 }
 
-.content-section {
-    padding-top: 100px;
-}
-
-.content_types-section {
+.about-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
     text-align: left;
-    background: url(/img/content-types-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
+/*    background: url(/img/content-types-bg.jpg) no-repeat center center scroll;*/
+    background-color: #7dc576;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.content-section {
+    padding-top: 100px;
+}
+
+.content-types-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    text-align: left;
+/*    background: url(/img/content-types-bg.jpg) no-repeat center center scroll;*/
+    background-color: #7dc576;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

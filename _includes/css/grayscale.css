@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: {{ site.color.primary-dark }};
+    background-color: {{ site.color.primary-light }};
 }
 
 html {
@@ -28,6 +28,7 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    color: #333;
 }
 
 p {
@@ -248,7 +249,7 @@ a:focus {
     }
 }
 
-.about-section {
+.about-style {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -265,7 +266,7 @@ a:focus {
     padding-top: 100px;
 }
 
-.content-types-section {
+.content-types-style {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -278,6 +279,26 @@ a:focus {
     -o-background-size: cover;
 }
 
+.contact-style {
+    background-color: #76aac5;
+}
+
+.contact-style p {
+    color: #333;
+}
+
+.footer-style {
+    background-color: #76aac5;
+}
+
+.footer-style p {
+    color: #333;
+}
+
+.video-guide-style {
+    background-color: #76aac5;
+}
+
 #map {
     width: 100%;
     height: 200px;
@@ -286,7 +307,8 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     .download-section {

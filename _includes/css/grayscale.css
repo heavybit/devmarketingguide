@@ -249,21 +249,51 @@ a:focus {
     }
 }
 
+.content-section {
+    padding-top: 100px;
+}
+
 .about-style {
     width: 100%;
     padding: 50px 0;
     color: #fff;
     text-align: left;
-/*    background: url(/img/content-types-bg.jpg) no-repeat center center scroll;*/
-    background-color: #7dc576;
+    background-color: #ec7f61;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.content-section {
-    padding-top: 100px;
+.video-guide-style {
+    background-color: #76aac5;
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.embed-responsive-244by77 {
+    padding-bottom: 26%;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.distribution-style {
+    background-color: #ecb961;
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    text-align: left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .content-types-style {
@@ -271,7 +301,6 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     text-align: left;
-/*    background: url(/img/content-types-bg.jpg) no-repeat center center scroll;*/
     background-color: #7dc576;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -293,10 +322,6 @@ a:focus {
 
 .footer-style p {
     color: #333;
-}
-
-.video-guide-style {
-    background-color: #76aac5;
 }
 
 #map {

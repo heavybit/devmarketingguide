@@ -253,6 +253,19 @@ a:focus {
     padding-top: 100px;
 }
 
+.profile {
+    margin-bottom: 70px;
+}
+
+.profile-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.container ul {
+    font-size: 18px;
+}
+
 .about-style {
     width: 100%;
     padding: 50px 0;
@@ -263,6 +276,15 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.about-style a {
+    color: #7dc576;
+    background: #000;
+}
+
+.about-style a:hover {
+    color: #408d38;
 }
 
 .video-guide-style {
@@ -284,6 +306,18 @@ a:focus {
     margin-left: 10%;
 }
 
+.content-types-style {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    text-align: left;
+    background-color: #7dc576;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .distribution-style {
     background-color: #ecb961;
     width: 100%;
@@ -296,16 +330,24 @@ a:focus {
     -o-background-size: cover;
 }
 
-.content-types-style {
+.retargeting-style {
+    background-color: #ec7f61;
     width: 100%;
     padding: 50px 0;
     color: #fff;
     text-align: left;
-    background-color: #7dc576;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.retargeting-style a {
+    color: #ecb961;
+}
+
+.retargeting-style a:hover {
+    color: #b6563c;
 }
 
 .contact-style {

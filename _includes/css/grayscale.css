@@ -28,7 +28,7 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #333;
+    color: #faa435;
 }
 
 p {
@@ -46,7 +46,7 @@ p {
 }
 
 a {
-    color: {{ site.color.links }};
+    color: #faa435;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -55,7 +55,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #dc8310;
 }
 
 .light {
@@ -263,7 +263,11 @@ a:focus {
 }
 
 .container ul {
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.content-section li {
+    margin-bottom: 10px;
 }
 
 .about-style {
@@ -271,20 +275,11 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     text-align: left;
-    background-color: #ec7f61;
+    background-color: #7d7b7c;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-.about-style a {
-    color: #7dc576;
-    background: #000;
-}
-
-.about-style a:hover {
-    color: #408d38;
 }
 
 .video-guide-style {
@@ -311,7 +306,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     text-align: left;
-    background-color: #7dc576;
+    background-color: #464445;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -319,7 +314,7 @@ a:focus {
 }
 
 .distribution-style {
-    background-color: #ecb961;
+    background-color: #3f3d3e;
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -331,7 +326,7 @@ a:focus {
 }
 
 .retargeting-style {
-    background-color: #ec7f61;
+    background-color: #7d7b7c;
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -342,28 +337,32 @@ a:focus {
     -o-background-size: cover;
 }
 
-.retargeting-style a {
-    color: #ecb961;
-}
-
-.retargeting-style a:hover {
-    color: #b6563c;
+.contribute-style {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    text-align: left;
+    background-color: #464445;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .contact-style {
-    background-color: #76aac5;
+    background-color: #ffffff;
 }
 
 .contact-style p {
-    color: #333;
+    color: #000;
 }
 
 .footer-style {
-    background-color: #76aac5;
+    background-color: #ffffff;
 }
 
 .footer-style p {
-    color: #333;
+    color: #000;
 }
 
 #map {
@@ -437,12 +436,10 @@ ul.banner-social-buttons li {
     }
 }
 
-footer {
-    padding: 50px 0;
-}
 
 footer p {
     margin: 0;
+    font-size: 15px;
 }
 
 ::-moz-selection {

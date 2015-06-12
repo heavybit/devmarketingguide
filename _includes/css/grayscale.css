@@ -295,10 +295,14 @@ a:focus {
 
 
 .embed-responsive-244by77 {
-    padding-bottom: 26%;
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
+    padding-bottom: 29%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.embed-responsive {
+    margin-bottom: 40px;
 }
 
 .content-types-style {

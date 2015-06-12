@@ -1,7 +1,7 @@
 # Site settings
 title: Beginner's Guide to Developer Marketing
 email: hello@heavybit.com
-baseurl: /devmarketingguide
+baseurl: http://www.devmarketingguide.com
 description: "Heavybit's Beginner's Guide to Developer Marketing"
 
 # Color settings (hex-codes without the leading hash-tag)

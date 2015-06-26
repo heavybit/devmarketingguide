@@ -100,6 +100,10 @@ a:focus {
     font-weight: 400;
 }
 
+.container ul.navbar-nav {
+    font-size: 12px;
+}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -297,6 +301,10 @@ a:focus {
     padding-top: 100px;
 }
 
+.content-section li {
+    margin-bottom: 5px;
+}
+
 .profile {
     margin-bottom: 70px;
 }
@@ -310,22 +318,6 @@ a:focus {
     font-size: 20px;
 }
 
-.content-section li {
-    margin-bottom: 5px;
-}
-
-.video-guide-style {
-    background-color: #76aac5;
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-
 .embed-responsive-244by77 {
     padding-bottom: 32%;
     width: 100%;
@@ -335,9 +327,9 @@ a:focus {
     margin-bottom: 40px;
 }
 
-.content-types-style {
+.light-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 10% 10%;
     color: #fff;
     text-align: left;
     background-color: #6a6863;
@@ -347,33 +339,9 @@ a:focus {
     -o-background-size: cover;
 }
 
-.distribution-style {
-    background-color: #3f373b;
+.dark-section {
     width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    text-align: left;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.retargeting-style {
-    background-color: #6a6863;
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    text-align: left;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.contribute-style {
-    width: 100%;
-    padding: 50px 0;
+    padding: 10% 10%;
     color: #fff;
     text-align: left;
     background-color: #3f373b;
@@ -381,6 +349,15 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+@media(max-width:767px) {
+    .dark-section {
+        padding: 10% 5% !important;
+    }
+    .light-section {
+        padding: 10% 5% !important;
+    }
 }
 
 .contact-style {
@@ -411,15 +388,6 @@ a:focus {
     .content-section {
         padding-top: 100px;
         padding-bottom: 50px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
     }
 }
 

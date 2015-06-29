@@ -1,0 +1,25 @@
+# Site settings
+title: The Developer Marketing Guide
+email: hello@heavybit.com
+baseurl: http://www.devmarketingguide.com
+description: "The Developer Marketing Guide"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  primary-light: '#FFFFFF'
+  links: '#219ab3'
+
+# Footer settings
+footer: Heavybit Industries
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/heavybit
+  - title: facebook
+    url: https://facebook.com/heavybitindustries
+
+# Build settings
+markdown: kramdown
+permalink: pretty

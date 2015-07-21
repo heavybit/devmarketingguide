@@ -4,9 +4,7 @@
 
 ##Contributing
 
-Do you have something to add? We encourage you to share your knowledge by submitting a pull request or emailing your edits and suggestions to us at content@heavybit.com. Add links to great talks or blog posts, suggest different approaches and new tools, offer case studies and stories of your wins (and losses!). If it will make us better developer marketers, we want to hear about it.
-
-This repo contains a single branch `gh-pages` which automatically rebuilds the live site when pull requests are accepted. For minor changes or additions (updating links, language, grammar) feel free to submit requests to the `gh-pages` branch. If you intend to make large changes or additions however, please create a new branch to work against.
+Do you have something to add? We encourage you to share your knowledge by submitting a pull request, opening an issue, or emailing your edits and suggestions to us directly at content@heavybit.com. Add links to great talks or blog posts, suggest different approaches and new tools, offer case studies and stories of your wins (and losses!). If it will make us better developer marketers, we want to hear about it.
 
 ##Running Locally
 

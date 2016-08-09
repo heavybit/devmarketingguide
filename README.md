@@ -1,6 +1,6 @@
 #The Developer Marketing Guide
 
-[The Developer Marketing Guide](http://www.devmarketingguide.com) is a [Heavybit Community Project](http://www.heavybit.com). Our goal is to collect the best resources for developer marketing in one place, to encourage a conversation about what works, what doesn't, and why, and to openly share that knowledge with the developer company community.
+[The Developer Marketing Guide](https://www.devmarketingguide.com) is a [Heavybit Community Project](http://www.heavybit.com). Our goal is to collect the best resources for developer marketing in one place, to encourage a conversation about what works, what doesn't, and why, and to openly share that knowledge with the developer company community.
 
 ##Contributing
 
@@ -8,11 +8,11 @@ Do you have something to add? We encourage you to share your knowledge by submit
 
 ##Running Locally
 
-This site is built with [Jekyll](http://jekyllrb.com/). Install Jekyll, clone the `gh-pages` branch and build the site using `bundle exec jekyll serve --baseurl` This will allow you to view your changes locally at localhost:4000 before submitting a pull-request.
+This site is built with [Jekyll](http://jekyllrb.com/). Install Jekyll, clone the `master` branch and build the site using `bundle exec jekyll serve --baseurl` This will allow you to view your changes locally at localhost:4000 before submitting a pull-request.
 
 ##About and License
 
-The Developer Marketing Guide is built on Jekyll and GitHub Pages, based on the [Grayscale bootstrap theme](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
+The Developer Marketing Guide is built on Jekyll and hosted by [Netlify](https://www.netlify.com/). The site is based on the [Grayscale bootstrap theme](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
 
 Read the site [license here.](https://github.com/heavybit/devmarketingguide/blob/gh-pages/LICENCE)
 

@@ -390,6 +390,7 @@ a:focus {
 .profile-image {
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .container ul {
@@ -490,6 +491,25 @@ a:focus {
     outline: 0;
     color: {{ site.color.primary-dark }};
     background-color: {{ site.color.links }};
+}
+
+.btn-devguild {
+    border: 1px solid #faa435;
+    color: #faa435;
+    background-color: transparent;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.btn-devguild:hover,
+.btn-devguild:focus {
+    border: 1px solid #faa435;
+    outline: 0;
+    color: black;
+    background-color: #faa435;
 }
 
 ul.banner-social-buttons {
